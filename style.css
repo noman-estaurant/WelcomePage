@@ -1,0 +1,57 @@
+body{
+    margin: auto;
+    text-align:center;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+one #topic{
+    position: absolute;
+    top:117pt;
+    left:36pt;
+}
+
+two #topic{
+    position: absolute;
+    top:138pt;
+    left:44pt;
+}
+
+#topic img{
+    width:288pt;
+}
+
+#text{
+    font-size: 14pt;
+    line-height: 16pt;
+    position: absolute;
+    top:373pt;
+    left:65pt;
+    color: rgb(74,74,74);
+}
+
+#text .title{
+    font-size: 23pt;
+}
+
+#page{
+    position: absolute;
+    top:494pt;
+    left:180pt;
+}
+
+#button{
+    position: absolute;
+    top:547pt;
+    left:46pt;
+    border-radius: 21.5pt; 
+    height: 43pt;
+    width: 285pt;
+    background: linear-gradient(90deg,rgb(255,120,171) 10%, rgb(255,143,94)90%); 
+    color:white;
+    text-align:center;
+    line-height:43pt;
+}
+
+@media screen and (min-width:760px){
+    
+}

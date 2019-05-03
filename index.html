@@ -3,45 +3,55 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.x.x/js/swiper.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
+
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.x.x/css/swiper.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Landing Page</title>
 </head>
 
 <body>
-    
-    <one>
-        <div id="topic"><img src="first.png"></div>
-        <div id="text">
-            <p class=title>優質餐點</p>
-            <p class=content>我們提供優質的餐點及充滿樂趣的點餐<br>方式，參與歡樂共同分享。</p>
-        </div>
-        <div id="page">
-            <img class="b1" src="press.png">
-            <img class="b2" src="unpress.png">
-        </div>
-    </one>
-    <two>
-        <div id="topic"><img src="second.png"></div>
-        <div id="text">
-            <p class=title>智慧點餐</p>
-            <p class=content>我們提供最符合無人餐廳的服務模式，<br>與好友、同事、家人體驗點餐樂趣。</p>
-        </div>
-        <div id="page">
-            <img class="b1" src="unpress.png">
-            <img class="b2" src="press.png">
-        </div>
-    </two>
+    <div class="container">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide post-content">
+                    <div id="topic"><img src="src/first.png"></div>
+                    <div id="text">
+                        <p class=title>優質餐點</p>
+                        <p class=content>我們提供優質的餐點及充滿樂趣的點餐<br>方式，參與歡樂共同分享。</p>
+                    </div>
 
-    <div id="button">完成</div>
+                </div>
+                <div class="swiper-slide post-content">
+                    <div id="topic"><img src="src/second.png"></div>
+                    <div id="text">
+                        <p class=title>智慧點餐</p>
+                        <p class=content>我們提供最符合無人餐廳的服務模式，<br>與好友、同事、家人體驗點餐樂趣。</p>
+                    </div>
+                    <div id="button">完成</div>
+                </div>
+
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+        <!--div id="page">
+            <img class="b1" src="src/unpress.png">
+            <img class="b2" src="src/press.png">
+      </div-->
+
+    </div>
 
 
     <script src="index.js"></script>
+
 </body>
 
 </html>

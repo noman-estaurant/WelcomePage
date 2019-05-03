@@ -38,10 +38,12 @@ body {
     top: 373pt;
     left: 65pt;
     color: rgb(74, 74, 74);
+    font-weight: 300;
 }
 
 #text .title {
     font-size: 23pt;
+    font-weight: 400;
 }
 
 #page {
